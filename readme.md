@@ -24,4 +24,17 @@ Feel free to clone, fork, or just browse through the code. If you find something
 
 Got questions or just want to say hi? You can reach me at my GitHub profile.
 
+##Cmake Notes
+### CMake Notes
+
+This project uses CMake to manage the build process. CMake helps in organizing the code, managing dependencies, and ensuring that the project can be built on different platforms with ease. The `CMakeLists.txt` file includes configurations for setting up the project, specifying the required C++ standard, and linking necessary libraries. Using precompiled headers (PCH) can significantly reduce compilation times by precompiling frequently included headers.
+
+To build the project:
+1. Install CMake.
+2. Navigate to the project directory.
+3. Run `cmake .` to generate the build files.
+4. Run `make` (or the equivalent command on your platform) to compile the project.
+
+Happy building!
+
 Enjoy the chaos and happy coding! 🚀
