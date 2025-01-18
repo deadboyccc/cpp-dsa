@@ -1,0 +1,33 @@
+# Use Google style guidelines
+BasedOnStyle: Google
+
+# Indentation and whitespace settings
+IndentWidth: 2 # Number of spaces per indentation level
+UseTab: Never # Do not use tabs for indentation
+TabWidth: 2 # Number of spaces per tab
+SpacesBeforeTrailingComments: 1 # Number of spaces before trailing comments
+
+# Brace and line settings
+BreakBeforeBraces: Attach # Where to place braces (e.g., Attach, Linux, Stroustrup, etc.)
+<!-- AllowShortBlocksOnASingleLine: true # Allow short blocks on the same line
+AllowShortCaseLabelsOnASingleLine: true # Allow short case labels on the same line
+AllowShortFunctionsOnASingleLine: Inline # Allow short functions on the same line
+AllowShortIfStatementsOnASingleLine: true # Allow short if statements on the same line
+AllowShortLoopsOnASingleLine: true # Allow short loops on the same line -->
+ColumnLimit: 80 # Maximum line length
+<!-- ColumnLimit: 120 # Maximum line length -->
+
+SpacesInParentheses: false # Do not add spaces inside parentheses
+SpacesInSquareBrackets: false # Do not add spaces inside square brackets
+
+# Comment settings
+<!-- CommentPragmas: Preserve # Preserve comment pragmas
+SpaceBeforeParens: ControlStatements # Spaces before parentheses in control statements
+SpaceAfterCStyleCast: true # Add space after C-style cast
+SpaceBeforeCaseColon: true # Add space before colon in case statements -->
+
+# Other settings
+<!-- AlignAfterOpenBracket: Align # Align parameters after an opening bracket -->
+AlignConsecutiveDeclarations: true # Align consecutive declarations
+<!-- AlignConsecutiveMacros: true # Align consecutive macros -->
+AlignTrailingComments: true # Align trailing comments
