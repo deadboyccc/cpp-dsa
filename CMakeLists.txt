@@ -13,7 +13,7 @@ set(PCH_SOURCE "pch.cpp")               # Source file for the precompiled header
 # find_package(fmt REQUIRED)
 
 # Create the main executable target
-add_executable(main EE.cpp)
+add_executable(main AsyncPrimeCheck.cpp)
 
 # Link libraries (uncomment if needed)
 # target_link_libraries(main PRIVATE fmt::fmt)
